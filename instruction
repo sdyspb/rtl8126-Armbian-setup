@@ -1,8 +1,7 @@
 apt update
-apt install build-essential dkms git gcc
 git clone https://github.com/openwrt/rtl8126.git
 cd rtl8126/
-apt install build-essential linux-headers-vendor-rk35xx make dkms git
+apt install linux-headers-vendor-rk35xx
 ln -s /boot/System.map-$(uname -r) /usr/src/linux-headers-$(uname -r)/System.map
 depmod -A
 update-initramfs -u
