@@ -1,5 +1,5 @@
 # rtl8126-Armbian-setup
-Adding 5GbE adapter based on RTL8126 to Armbian
+Adding 5GbE adapter based on RTL8126 to Armbian with RK3588
 
 <img width="1176" height="935" alt="image" src="https://github.com/user-attachments/assets/2f5918da-e095-4f08-b9fe-f503c0d0d68b" />
 
